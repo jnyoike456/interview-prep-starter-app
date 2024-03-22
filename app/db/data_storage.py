@@ -2,8 +2,6 @@ from typing import Dict, Any, Optional, List
 
 # This is an inmemory datastore. 
 # But it's modular so you could easily swap in database operations here 
-# This is worth discussing with interviewers. It shows you're imagining
-# if there is a DB.
 
 class DataStorage:
     _instance = None
